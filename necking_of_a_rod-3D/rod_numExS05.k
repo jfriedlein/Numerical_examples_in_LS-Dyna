@@ -1,5 +1,5 @@
 $# LS-DYNA Keyword file created by LS-PrePost(R) V4.6.15 - 16Aug2019
-$# Created on Jun-09-2020 (18:06:31)
+$# Created on Jun-12-2020 (15:18:53)
 *KEYWORD
 *TITLE
 $#                                                                         title
@@ -243,15 +243,14 @@ $#    nid1      nid2      nid3      nid4      nid5      nid6      nid7      nid8
 *SECTION_SOLID_TITLE
 solid_rod
 $#   secid    elform       aet   
-         1        -2         0
+         1         1         0
 *DEFINE_CURVE_TITLE
 Curve_uy
 $#    lcid      sidr       sfa       sfo      offa      offo    dattyp     lcint
          1         0       1.0       1.0       0.0       0.0         0         0
 $#                a1                  o1  
                  0.0                 0.0
-               100.0                 3.0
-               200.0                 0.0
+               400.0                 7.0
 *ELEMENT_SOLID
 $#   eid     pid      n1      n2      n3      n4      n5      n6      n7      n8
        1       1    1395    1385    5424    3907    1384    1384    4645    4645
