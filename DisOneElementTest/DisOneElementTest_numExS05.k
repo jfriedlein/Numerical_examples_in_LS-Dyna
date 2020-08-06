@@ -1,5 +1,5 @@
 $# LS-DYNA Keyword file created by LS-PrePost(R) V4.6.15 - 16Aug2019
-$# Created on Jul-23-2020 (14:32:04)
+$# Created on Aug-04-2020 (11:47:01)
 *KEYWORD
 *TITLE
 $#                                                                         title
@@ -45,7 +45,7 @@ $#    nid1      nid2      nid3      nid4      nid5      nid6      nid7      nid8
 *SECTION_SOLID_TITLE
 cube
 $#   secid    elform       aet   
-         1        -1         0
+         1        23         0
 *DEFINE_COORDINATE_SYSTEM
 $#     cid        xo        yo        zo        xl        yl        zl      cidl
          1       0.0       0.0       0.0       1.0       1.0       1.0         0
@@ -58,7 +58,7 @@ $#    lcid      sidr       sfa       sfo      offa      offo    dattyp     lcint
 $#                a1                  o1  
                  0.0                 0.0
                100.0                0.03
-*ELEMENT_SOLID
+*ELEMENT_SOLID_H8TOH20
 $#   eid     pid      n1      n2      n3      n4      n5      n6      n7      n8
        1       1       1       2       4       3       5       6       8       7
 *NODE
@@ -77,7 +77,4 @@ $#     sid       da1       da2       da3       da4    solver
          1       0.0       0.0       0.0       0.0MECH
 $#    nid1      nid2      nid3      nid4      nid5      nid6      nid7      nid8
          3         4         7         8         0         0         0         0
-*COMMENT  *TERMINATION_SENSOR
-$#  sensor
-         1
 *END

@@ -1,5 +1,5 @@
 $# LS-DYNA Keyword file created by LS-PrePost(R) V4.6.15 - 16Aug2019
-$# Created on Jun-30-2020 (12:04:45)
+$# Created on Aug-06-2020 (10:01:22)
 *KEYWORD
 *TITLE
 $#                                                                         title
@@ -21,11 +21,6 @@ $#     sid       da1       da2       da3       da4    solver
 $#    nid1      nid2      nid3      nid4      nid5      nid6      nid7      nid8
         60       114       115       116       117       118       119       120
        121       122       123       124       125       126         0         0
-*PART
-$#                                                                         title
-LSHELL1
-$#     pid     secid       mid     eosid      hgid      grav    adpopt      tmid
-         1         1         4         0         0         0         0         0
 *SECTION_SHELL_TITLE
 rod
 $#   secid    elform      shrf       nip     propt   qr/irid     icomp     setyp
@@ -1533,4 +1528,9 @@ $#     sid       da1       da2       da3       da4    solver
 $#    nid1      nid2      nid3      nid4      nid5      nid6      nid7      nid8
          1        47        48        49        50        51        52        53
         54        55        56        57        58        59         0         0
+*COMMENT  *PART
+$#                                                                         title
+LSHELL1
+$#     pid     secid       mid     eosid      hgid      grav    adpopt      tmid
+         1         1         4         0         0         0         0         0
 *END

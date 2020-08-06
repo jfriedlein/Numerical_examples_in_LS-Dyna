@@ -1,20 +1,11 @@
 $# LS-DYNA Keyword file created by LS-PrePost(R) V4.6.15 - 16Aug2019
-$# Created on Jul-16-2020 (11:28:35)
+$# Created on Aug-06-2020 (11:07:08)
 *KEYWORD
 *BOUNDARY_PRESCRIBED_MOTION_SET_ID
 $#      id                                                               heading
          1BC_uy
 $#    nsid       dof       vad      lcid        sf       vid     death     birth
          1         2         2         1       1.0         01.00000E28       0.0
-*COMMENT *BOUNDARY_PRESCRIBED_MOTION_SET_ID
-$#      id                                                               heading
-         0BC_ux
-$#    nsid       dof       vad      lcid        sf       vid     death     birth
-         4         1         2         1      -2.0         01.00000E28       0.0
-$#      id                                                               heading
-         0BC_uz
-$#    nsid       dof       vad      lcid        sf       vid     death     birth
-         6         3         2         1       1.0         01.00000E28       0.0
 *BOUNDARY_SPC_SET_ID
 $#      id                                                               heading
          1BC_y0
@@ -446,4 +437,13 @@ $#    nid1      nid2      nid3      nid4      nid5      nid6      nid7      nid8
        197       198       199       200       201       202       203       204
        205       206       207       208       209       210       211       212
        213       214       215       216         0         0         0         0
+*COMMENT  *BOUNDARY_PRESCRIBED_MOTION_SET_ID
+$#      id                                                               heading
+         0BC_ux
+$#    nsid       dof       vad      lcid        sf       vid     death     birth
+         4         1         2         1      -2.0         01.00000E28       0.0
+$#      id                                                               heading
+         0BC_uz
+$#    nsid       dof       vad      lcid        sf       vid     death     birth
+         6         3         2         1       1.0         01.00000E28       0.0
 *END

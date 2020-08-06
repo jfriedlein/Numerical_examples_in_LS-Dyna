@@ -1,13 +1,9 @@
 $# LS-DYNA Keyword file created by LS-PrePost(R) V4.6.15 - 16Aug2019
-$# Created on Jul-05-2020 (14:49:49)
+$# Created on Aug-04-2020 (10:39:34)
 *KEYWORD
 *TITLE
 $#                                                                         title
 LS-DYNA keyword deck by LS-PrePost
-*SECTION_SOLID_TITLE
-cube
-$#   secid    elform       aet   
-         1         2         0
 *BOUNDARY_PRESCRIBED_MOTION_SET_ID
 $#      id                                                               heading
          1BC_uy
@@ -184,6 +180,14 @@ $#    nid1      nid2      nid3      nid4      nid5      nid6      nid7      nid8
       1156      1157      1158      1159      1160      1161      1162      1163
       1164      1165      1166      1167      1168      1169      1170      1171
       1172      1173      1174      1175      1176      1177      1178         0
+*SECTION_SOLID_TITLE
+cube
+$#   secid    elform       aet   
+         1       101         0
+$#     nip     nxdof      ihgf      itaj       lmc      nhsv    
+         1         0         1         0         0         0
+$#      xi       eta      zeta       wgt   
+6.68388E22       0.0-1.2892E20-9.876E-32
 *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE
 MAT_dummy
 $#     mid        ro         e        pr      sigy      etan      fail      tdel
@@ -200,7 +204,7 @@ $#    lcid      sidr       sfa       sfo      offa      offo    dattyp     lcint
          1         0       1.0       1.0       0.0       0.0         0         0
 $#                a1                  o1  
                  0.0                 0.0
-               400.0                10.0
+               100.0                 1.0
 *ELEMENT_SOLID
 $#   eid     pid      n1      n2      n3      n4      n5      n6      n7      n8
    11539       1    1864    1863    2603    2492    1788    1788    3893    3893
