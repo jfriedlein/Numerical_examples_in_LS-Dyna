@@ -1,5 +1,5 @@
 $# LS-DYNA Keyword file created by LS-PrePost(R) V4.6.15 - 16Aug2019
-$# Created on Jul-16-2020 (13:51:24)
+$# Created on Aug-14-2020 (14:51:04)
 *KEYWORD
 *TITLE
 $#                                                                         title
@@ -57,7 +57,7 @@ $#    lcid      sidr       sfa       sfo      offa      offo    dattyp     lcint
          1         0       1.0       1.0       0.0       0.0         0         0
 $#                a1                  o1  
                  0.0                 0.0
-               100.0               -0.03
+               150.0               0.045
 *ELEMENT_SOLID
 $#   eid     pid      n1      n2      n3      n4      n5      n6      n7      n8
        1       1       1       2       4       3       5       6       8       7

@@ -1,5 +1,5 @@
 $# LS-DYNA Keyword file created by LS-PrePost(R) V4.6.15 - 16Aug2019
-$# Created on Aug-06-2020 (11:07:08)
+$# Created on Aug-08-2020 (21:48:32)
 *KEYWORD
 *BOUNDARY_PRESCRIBED_MOTION_SET_ID
 $#      id                                                               heading
@@ -51,10 +51,6 @@ $#    nid1      nid2      nid3      nid4      nid5      nid6      nid7      nid8
         17        18        19        20        21        22        23        24
         25        26        27        28        29        30        31        32
         33        34        35        36         0         0         0         0
-*SECTION_SOLID_TITLE
-cube
-$#   secid    elform       aet   
-         1         2         0
 *DEFINE_CURVE_TITLE
 Curve_uy
 $#    lcid      sidr       sfa       sfo      offa      offo    dattyp     lcint

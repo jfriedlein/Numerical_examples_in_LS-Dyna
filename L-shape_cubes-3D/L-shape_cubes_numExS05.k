@@ -100,7 +100,18 @@ $#    nid1      nid2      nid3      nid4      nid5      nid6      nid7      nid8
 *SECTION_SOLID_TITLE
 cube
 $#   secid    elform       aet   
-         1        23         0
+         1       102         0
+$#     nip     nxdof      ihgf      itaj       lmc      nhsv    
+         8         0         0         0         0         0
+$#      xi       eta      zeta       wgt   
+    0.0577     0.577     0.577     0.125
+     0.577     0.577    -0.577     0.125
+     0.577    -0.577     0.577     0.125
+     0.577    -0.577    -0.577     0.125
+    -0.577     0.577     0.577     0.125
+    -0.577     0.577    -0.577     0.125
+    -0.577    -0.577     0.577     0.125
+    -0.577    -0.577    -0.577     0.125
 *DEFINE_CURVE_TITLE
 Curve_uy
 $#    lcid      sidr       sfa       sfo      offa      offo    dattyp     lcint
@@ -108,7 +119,7 @@ $#    lcid      sidr       sfa       sfo      offa      offo    dattyp     lcint
 $#                a1                  o1  
                  0.0                 0.0
                100.0                0.05
-*ELEMENT_SOLID_H8TOH20
+*ELEMENT_SOLID
 $#   eid     pid      n1      n2      n3      n4      n5      n6      n7      n8
       11       1      11      12      33      32     452     453     474     473
       12       1      12      13      34      33     453     454     475     474

@@ -1,5 +1,5 @@
 $# LS-DYNA Keyword file created by LS-PrePost(R) V4.6.15 - 16Aug2019
-$# Created on Jul-23-2020 (13:41:58)
+$# Created on Aug-15-2020 (20:35:36)
 *KEYWORD
 *DATABASE_CROSS_SECTION_PLANE_ID
 $#    csid                                                                 title
@@ -517,7 +517,7 @@ $#    lcid      sidr       sfa       sfo      offa      offo    dattyp     lcint
          1         0       1.0       1.0       0.0       0.0         0         0
 $#                a1                  o1  
                  0.0                 0.0
-               300.0                 7.0
+               300.0                15.0
 *ELEMENT_SOLID
 $#   eid     pid      n1      n2      n3      n4      n5      n6      n7      n8
        1       1    1421    1408    6443    6434    1424    1424    6416    6416

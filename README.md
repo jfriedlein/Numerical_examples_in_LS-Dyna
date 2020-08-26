@@ -3,7 +3,10 @@ A collection of different numerical examples in LS-Dyna. Besides the geometry an
 
 The `main.k` file is the center and contains the solver, output settings etc. The numerical examples are designed to be interchangable, so you can test your material models and settings in main.k for different numerical examples, simply by switching between them in the main-file.
 
-Issue:
+## Issues:
 * main.k is not automatially updated (hardcopy from actual directory)
 
 DOCUMENTATION !!!!
+
+## ToDos:
+* maybe add small GUI to select the desired numEx
