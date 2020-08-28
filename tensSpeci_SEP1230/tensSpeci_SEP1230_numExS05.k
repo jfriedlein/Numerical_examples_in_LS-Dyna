@@ -1,5 +1,5 @@
 $# LS-DYNA Keyword file created by LS-PrePost(R) V4.6.15 - 16Aug2019
-$# Created on Aug-15-2020 (20:35:36)
+$# Created on Aug-27-2020 (16:15:02)
 *KEYWORD
 *DATABASE_CROSS_SECTION_PLANE_ID
 $#    csid                                                                 title
