@@ -1,2 +1,6 @@
 29.05.2020
-	First Standard S05 (Year 202(0), month May (5) 
+	First Standard S05 (Year 202(0), month May (5)
+	* Loaded surface (standard: y-direction, y+) has node set ID 1
+	* Supported symmetry plane (y-direction, y-) ID 2
+	* Supported symmetry plane (x-direction, x-) ID 3
+	* Supported symmetry plane (z-direction, z-) ID 4
