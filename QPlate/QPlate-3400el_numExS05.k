@@ -1,5 +1,5 @@
 $# LS-DYNA Keyword file created by LS-PrePost(R) V4.6.15 - 16Aug2019
-$# Created on Aug-04-2020 (10:39:34)
+$# Created on Aug-31-2020 (08:12:58)
 *KEYWORD
 *TITLE
 $#                                                                         title
@@ -183,11 +183,7 @@ $#    nid1      nid2      nid3      nid4      nid5      nid6      nid7      nid8
 *SECTION_SOLID_TITLE
 cube
 $#   secid    elform       aet   
-         1       101         0
-$#     nip     nxdof      ihgf      itaj       lmc      nhsv    
-         1         0         1         0         0         0
-$#      xi       eta      zeta       wgt   
-6.68388E22       0.0-1.2892E20-9.876E-32
+         1         1         0
 *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE
 MAT_dummy
 $#     mid        ro         e        pr      sigy      etan      fail      tdel
