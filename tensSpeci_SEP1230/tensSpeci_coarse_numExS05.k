@@ -1,5 +1,5 @@
 $# LS-DYNA Keyword file created by LS-PrePost(R) V4.6.15 - 16Aug2019
-$# Created on Aug-31-2020 (10:53:02)
+$# Created on Sep-01-2020 (16:44:12)
 *KEYWORD
 *DATABASE_CROSS_SECTION_PLANE_ID
 $#    csid                                                                 title
@@ -31,17 +31,6 @@ $#    nid1      nid2      nid3      nid4      nid5      nid6      nid7      nid8
        147       148       149       150       151       152       153       154
        155       156       157       158       159       160       161       162
        163       164         0         0         0         0         0         0
-*DEFINE_CURVE_TITLE
-Curve_ux
-$#    lcid      sidr       sfa       sfo      offa      offo    dattyp     lcint
-         1         0       1.0       1.0       0.0       0.0         0         0
-$#                a1                  o1  
-                 0.0                 0.0
-               100.0                 7.5
-*SECTION_SOLID_TITLE
-tensileSpeci
-$#   secid    elform       aet   
-         1         1         0
 *BOUNDARY_SPC_SET_ID
 $#      id                                                               heading
          1BC_y0
@@ -157,6 +146,17 @@ $#    nid1      nid2      nid3      nid4      nid5      nid6      nid7      nid8
        311       312       313       314       315       316       317       318
        319       320       321       322       323       324       325       326
        327       328         0         0         0         0         0         0
+*SECTION_SOLID_TITLE
+tensileSpeci
+$#   secid    elform       aet   
+         1         1         0
+*DEFINE_CURVE_TITLE
+Curve_ux
+$#    lcid      sidr       sfa       sfo      offa      offo    dattyp     lcint
+         1         0       1.0       1.0       0.0       0.0         0         0
+$#                a1                  o1  
+                 0.0                 0.0
+               100.0                 7.5
 *ELEMENT_SOLID
 $#   eid     pid      n1      n2      n3      n4      n5      n6      n7      n8
        1       1     877     754     404     611     755     755     423     423

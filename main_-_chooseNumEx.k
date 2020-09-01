@@ -1,5 +1,5 @@
 $# LS-DYNA Keyword file created by LS-PrePost(R) V4.6.15 - 16Aug2019
-$# Created on Aug-31-2020 (09:12:03)
+$# Created on Sep-01-2020 (16:44:12)
 *KEYWORD
 *COMMENT  *INCLUDE
 $#                                                                      filename
@@ -31,9 +31,6 @@ D:\Numerical_examples_in_LS-Dyna\Dis4el-ax\Dis4el-ax_numExS05.k
 *COMMENT  *INCLUDE
 $#                                                                      filename
 D:\Numerical_examples_in_LS-Dyna\cube\cube_numExS05.k
-*INCLUDE
-$#                                                                      filename
-D:\Numerical_examples_in_LS-Dyna\tensSpeci_SEP1230\tensSpeci_SEP1230_numExS05.k
 *COMMENT  *INCLUDE
 $#                                                                      filename
 D:\Numerical_examples_in_LS-Dyna\necking_of_a_rod-3D\rod_numExS05.k
@@ -49,4 +46,10 @@ D:\Numerical_examples_in_LS-Dyna\Dis8elCube\Dis8elCube_numExS05.k
 *COMMENT  *INCLUDE
 $#                                                                      filename
 D:\Numerical_examples_in_LS-Dyna\QPlate\QPlate-918el_numExS05.k
+*COMMENT  *INCLUDE
+$#                                                                      filename
+D:\Numerical_examples_in_LS-Dyna\tensSpeci_SEP1230\tensSpeci_SEP1230_numExS05.k
+*INCLUDE
+$#                                                                      filename
+D:\Numerical_examples_in_LS-Dyna\tensSpeci_SEP1230\tensSpeci_coarse_numExS05.k
 *END

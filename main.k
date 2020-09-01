@@ -1,5 +1,5 @@
 $# LS-DYNA Keyword file created by LS-PrePost(R) V4.6.15 - 16Aug2019
-$# Created on Aug-31-2020 (09:12:03)
+$# Created on Sep-01-2020 (16:44:12)
 *KEYWORD
 *TITLE
 $#                                                                         title
@@ -9,13 +9,13 @@ $#     osu       inn    pidosu      iacc
          0         1         0         0
 *CONTROL_IMPLICIT_AUTO
 $#   iauto    iteopt    itewin     dtmin     dtmax     dtexp     kfail    kcycle
-         0        11         5       0.1       1.0       0.0         0         0
+         1        11         5       0.1       1.0       0.0         0         0
 *CONTROL_IMPLICIT_GENERAL
 $#  imflag       dt0    imform      nsbs       igs     cnstn      form    zero_v
          1       1.0         2         1         2         0         0         0
 *CONTROL_IMPLICIT_SOLUTION
 $#  nsolvr    ilimit    maxref     dctol     ectol     rctol     lstol    abstol
-        12         1        151.00000E-81.00000E-81.00000E10       0.91.0000E-20
+        12         1        15     0.001      0.011.00000E10       0.91.0000E-10
 $#   dnorm    diverg     istif   nlprint    nlnorm   d3itctl     cpchk     
          2         1         1         0         2         0         0
 $#  arcctl    arcdir    arclen    arcmth    arcdmp    arcpsi    arcalf    arctim
@@ -54,6 +54,11 @@ $#    nsid       cid
 *DATABASE_HISTORY_NODE_SET
 $#     id1       id2       id3       id4       id5       id6       id7       id8
          1         0         0         0         0         0         0         0
+*PART
+$#                                                                         title
+auto created
+$#     pid     secid       mid     eosid      hgid      grav    adpopt      tmid
+         1         1        44         0         0         0         0         0
 *COMMENT  *BOUNDARY_PRESCRIBED_MOTION_SET_ID
 $#      id                                                               heading
          0shear_bottom_x
@@ -75,5 +80,8 @@ $#                                                                      filename
 main_-_chooseNumEx.k
 *INCLUDE
 $#                                                                      filename
-main_-_materialCards.k
+D:\Materialkarten_A05\main_-_materialCards.k
+*INCLUDE
+$#                                                                      filename
+D:\Materialkarten_A05\materialCards_fitted.k
 *END
