@@ -1,6 +1,13 @@
 $# LS-DYNA Keyword file created by LS-PrePost(R) V4.6.15 - 16Aug2019
 $# Created on Aug-31-2020 (08:12:58)
 *KEYWORD
+*DATABASE_CROSS_SECTION_PLANE_ID
+$#    csid                                                                 title
+         2                                                                      
+$#    psid       xct       yct       zct       xch       ych       zch    radius
+         0       0.0      95.0      10.0       0.0      96.0      10.0       0.0
+$#    xhev      yhev      zhev      lenl      lenm        id     itype     
+     100.0      95.0      10.0     100.0      10.0         0         0
 *TITLE
 $#                                                                         title
 LS-DYNA keyword deck by LS-PrePost

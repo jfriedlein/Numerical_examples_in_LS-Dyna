@@ -1,9 +1,16 @@
 $# LS-DYNA Keyword file created by LS-PrePost(R) V4.6.15 - 16Aug2019
-$# Created on Aug-31-2020 (08:12:58)
+$# Created on Sep-04-2020 (09:11:12)
 *KEYWORD
 *TITLE
 $#                                                                         title
 LS-DYNA keyword deck by LS-PrePost
+*DATABASE_CROSS_SECTION_PLANE_ID
+$#    csid                                                                 title
+         2                                                                      
+$#    psid       xct       yct       zct       xch       ych       zch    radius
+         0       0.0      95.0      10.0       0.0      96.0      10.0       0.0
+$#    xhev      yhev      zhev      lenl      lenm        id     itype     
+     100.0      95.0      10.0     100.0      10.0         0         0
 *BOUNDARY_PRESCRIBED_MOTION_SET_ID
 $#      id                                                               heading
          1BC_uy
@@ -46,22 +53,6 @@ $#      id                                                               heading
          3BC_z0
 $#    nsid       cid      dofx      dofy      dofz     dofrx     dofry     dofrz
          4         0         0         0         1         0         0         0
-*SET_NODE_LIST_TITLE
-NS_y+
-$#     sid       da1       da2       da3       da4    solver      
-         1       0.0       0.0       0.0       0.0MECH
-$#    nid1      nid2      nid3      nid4      nid5      nid6      nid7      nid8
-         6         7         9        10        73        74        75        76
-        77        78        79        80        81        82        83        84
-        85        86        87        88        89        90        91       112
-       113       133       134       135       136       137       138       139
-       140       141       142       143       144       145       146       147
-       148       149       150       151       152       153       249       250
-       251       252       253       254       255       256       257       258
-       259       260       261       262       263       264       265       266
-       267       268       269       270       271       272       273       274
-       275       276       277       278       279       280       281       282
-       283       284       285       286         0         0         0         0
 *SET_NODE_LIST_TITLE
 NS_z-
 $#     sid       da1       da2       da3       da4    solver      
@@ -131,7 +122,7 @@ $#    lcid      sidr       sfa       sfo      offa      offo    dattyp     lcint
          1         0       1.0       1.0       0.0       0.0         0         0
 $#                a1                  o1  
                  0.0                 0.0
-               100.0                 1.0
+               100.0                 3.0
 *ELEMENT_SOLID
 $#   eid     pid      n1      n2      n3      n4      n5      n6      n7      n8
        1       1       1      92     574      11      44     201     851     219
@@ -2434,4 +2425,20 @@ $#   nid               x               y               z      tc      rc
     1378        59.19501        66.14812        3.333333       0       0
     1379        63.94825        58.74835        6.666667       0       0
     1380        63.94824        58.74835        3.333333       0       0
+*SET_NODE_LIST_TITLE
+NS_y+
+$#     sid       da1       da2       da3       da4    solver      
+         1       0.0       0.0       0.0       0.0MECH
+$#    nid1      nid2      nid3      nid4      nid5      nid6      nid7      nid8
+         6         7         9        10        73        74        75        76
+        77        78        79        80        81        82        83        84
+        85        86        87        88        89        90        91       112
+       113       133       134       135       136       137       138       139
+       140       141       142       143       144       145       146       147
+       148       149       150       151       152       153       249       250
+       251       252       253       254       255       256       257       258
+       259       260       261       262       263       264       265       266
+       267       268       269       270       271       272       273       274
+       275       276       277       278       279       280       281       282
+       283       284       285       286         0         0         0         0
 *END

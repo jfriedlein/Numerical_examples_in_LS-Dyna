@@ -1,9 +1,16 @@
 $# LS-DYNA Keyword file created by LS-PrePost(R) V4.6.15 - 16Aug2019
-$# Created on Aug-31-2020 (07:35:11)
+$# Created on Sep-04-2020 (14:22:02)
 *KEYWORD
 *TITLE
 $#                                                                         title
 LS-DYNA keyword deck by LS-PrePost
+*DATABASE_CROSS_SECTION_PLANE_ID
+$#    csid                                                                 title
+         2                                                                      
+$#    psid       xct       yct       zct       xch       ych       zch    radius
+         0       0.0      0.99       1.0       0.0       1.0       1.0       0.0
+$#    xhev      yhev      zhev      lenl      lenm        id     itype     
+       1.0      0.99       1.0       1.0       1.0         0         0
 *BOUNDARY_PRESCRIBED_MOTION_SET_ID
 $#      id                                                               heading
          1BC_uy
@@ -45,7 +52,7 @@ $#    nid1      nid2      nid3      nid4      nid5      nid6      nid7      nid8
 *SECTION_SOLID_TITLE
 cube
 $#   secid    elform       aet   
-         1         2         0
+         1         1         0
 *DEFINE_COORDINATE_SYSTEM
 $#     cid        xo        yo        zo        xl        yl        zl      cidl
          1       0.0       0.0       0.0       1.0       1.0       1.0         0
