@@ -1,5 +1,5 @@
 $# LS-DYNA Keyword file created by LS-PrePost(R) V4.6.15 - 16Aug2019
-$# Created on Sep-01-2020 (16:44:12)
+$# Created on Sep-03-2020 (07:10:45)
 *KEYWORD
 *DATABASE_CROSS_SECTION_PLANE_ID
 $#    csid                                                                 title
@@ -150,6 +150,32 @@ $#    nid1      nid2      nid3      nid4      nid5      nid6      nid7      nid8
 tensileSpeci
 $#   secid    elform       aet   
          1         1         0
+*MAT_HILL_3R_TITLE
+Hill-plasti
+$#     mid        ro         e        pr        hr        p1        p2  
+       1222.70000E-9   63000.0      0.34       1.0    5000.0  178.7811
+$#     r00       r45       r90      lcid        e0  
+  1.123572  1.195013  1.012971         0       0.0
+$#    aopt    
+       0.0
+$#  unused    unused    unused        a1        a2        a3  
+                                     0.0       0.0       0.0
+$#      v1        v2        v3        d1        d2        d3      beta    
+       0.0       0.0       0.0       0.0       0.0       0.0       0.0
+*MAT_HILL_3R_3D_TITLE
+Hill-plasti
+$#     mid        ro        ex        ey        ez      prxy      pryz      prxz
+      12202.70000E-9   63000.0   63000.0   63000.0      0.34      0.34      0.34
+$#     gxy       gyz       gxz         f         g         h         l         m
+   23510.0   23510.0   23510.0    0.3341    0.5098    0.3569       1.5       1.5
+$#       n        hr        p1        p2  
+    1.8197         0   1000000       1.5
+$#    aopt    
+         0
+$#      xp        yp        zp        a1        a2        a3  
+       0.0       0.0       0.0       0.0       0.0       0.0
+$#      v1        v2        v3        d1        d2        d3      beta    
+       0.0       0.0       0.0       0.0       0.0       0.0       0.0
 *DEFINE_CURVE_TITLE
 Curve_ux
 $#    lcid      sidr       sfa       sfo      offa      offo    dattyp     lcint
